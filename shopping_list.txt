@@ -1,5 +1,5 @@
 banana x2
-apple x5
+apple x10
 orange x7
 bread x2
 milk x3
