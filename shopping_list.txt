@@ -1,5 +1,11 @@
 banana x2
 apple x10
 orange x7
+<<<<<<< HEAD
 bread x2
 milk x2
+=======
+chocolate x2
+milk x3
+water x5
+>>>>>>> branch2
