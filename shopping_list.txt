@@ -2,4 +2,4 @@ banana x2
 apple x10
 orange x7
 bread x2
-milk x3
+milk x2
