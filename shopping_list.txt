@@ -1,5 +1,6 @@
 banana x2
 apple x5
 orange x7
-bread x2
+chocolate x2
 milk x3
+water x5
