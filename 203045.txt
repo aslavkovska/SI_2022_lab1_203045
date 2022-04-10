@@ -1,0 +1,276 @@
+4. komanda za kloniranje: git clone https://github.com/aslavkovska/SI_2022_lab1_203045.git
+komanda za vleguvanje vo repozitoriumot cd SI_2022_lab1_203045
+5. komanda za dodavanje na datotekata na stage: git add shipping_list.txt
+komanda za commit: git commit -m "Add 5 items to the shopping list"
+6. bidejki datotekata shopping_list.txt seda se naogja vo modified faza, potrebno e da se dodade prvo na stage, a potoa da se napravi commit
+komanda za dodavanje na datotekata na stage: git add shopping_list.txt
+komanda za commit: git commit -m "Add quantities to the items"
+7. komanda za kreiranje na branch1: git checkout -b branch1
+komanda za kreiranje na branch2: git checkout -b branch2
+8. commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (HEAD -> master)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb (origin/master, origin/HEAD)
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+
+9. najprvo treba da se napravi pull, komanda za pull: git pull
+potoa komanda za push na branch1: git push origin branch1
+komanda za oush na brach2P git push origin branch2
+10. komanda za prefrluvanje na grankata branch1: git checkoug branch1
+11. bidejki shopping_list.txt e vo modified faza, komanda za dodavanje na stage: git add shopping_list.txt
+komanda za commit: git commit -m "Change quantity of item #5"
+12. komanda za prefrluvanje na grankata master: git chechout master
+13. bidejki shopping_list.txt e vo modified faza, komanda za dodavanje na stage: git add shopping_list.txt
+komanda za commit: git commit -m "Change quantity of item #2"
+14. najprvo treba da se napravi pull, komanda za pull: git pull
+potoa komanda za push: git push
+komanda za push na branch1: git push origin branch1
+komanda za oush na brach2P git push origin branch2
+15. komanda za prefrluvanje na grankata branch2: git checkoug branch2
+16. bidejki shopping_list.txt e vo modified faza, komanda za dodavanje na stage: git add shopping_list.txt
+komanda za commit: git commit -m "Modify item #4"
+17. commit 2ba6238931ef8cf7243fed53433366aced01a985 (HEAD -> branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:32:46 2022 +0200
+
+    Modify item #4
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+
+
+commit 4a16a919e934a1b4eaebaca068f2715add464bfc (HEAD -> branch1, origin/branch1)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:19:14 2022 +0200
+
+    Change quantity of item #5
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+
+commit c15317788f72a3079407b7933e943cae8c96cabc (HEAD -> master, origin/master, origin/HEAD)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:26:49 2022 +0200
+
+    Change quantity of item #2
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+18. najprvo se dodava 6 stavka vo shopping_list.txt i datotekata se naogja vo faza modified, komanda za dodavanje na stage e: git add shopping_list.txt
+komanda za commit e: git commit -m "Add item #6"
+komanda za da se izlistaat site commit-i: git log --oneline
+komanda za interaktiven rebase: git rebase -i HEAD~2
+za da se spojat poslednite dva commit-t vo eden potrebno e 
+pick 2ba6238 Modify item #4
+squash 2b4e672 Add item #6
+
+commit poraka: "Modify item #4 and add item #6"
+
+19.commit f3e1cfb6eb064c11f86d2a841ae8f398de65beeb (HEAD -> branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:32:46 2022 +0200
+
+    Modify item #4 and add item #6
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+
+commit c15317788f72a3079407b7933e943cae8c96cabc (HEAD -> master, origin/master, origin/HEAD)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:26:49 2022 +0200
+
+    Change quantity of item #2
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+
+commit 4a16a919e934a1b4eaebaca068f2715add464bfc (HEAD -> branch1, origin/branch1)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:19:14 2022 +0200
+
+    Change quantity of item #5
+
+commit 04de0d73a1ad63a8570474d96792db4a6b6ca507 (origin/branch2)
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 21:01:37 2022 +0200
+
+    Add quantities to the items
+
+commit 529ccabe7d90aad45551f2b649371c3cb98b9d3a
+Author: aslavkovska <anastasija.slavkovska@yahoo.com>
+Date:   Sun Apr 10 20:56:32 2022 +0200
+
+    Add 5 items to the shopping list
+
+commit fafa2d5ec1fb7a7af1e85f0f174c3f03a89af4eb
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:40:23 2022 +0200
+
+    Update README.md
+
+commit b2259e8ca34691775dd314a6617c90377c2ec4ab
+Author: aslavkovska <103382648+aslavkovska@users.noreply.github.com>
+Date:   Sun Apr 10 20:38:42 2022 +0200
+
+    Initial commit
+
+
+
+20. komanda za prefrluvanje na grankata master: git checkout master
+komanda za spojuvanje na grankata branch1 so master: git merge branch1
+21. komanda za spojuvanje na grankata branch2 so master: git merge branch2, no se javuva konflikt, za da se resi konfliktot se koristat komandite
+git add shopping_list.txt
+git commit -m "Conflict solved"
+22. Prvo se stava na stage so komandata: git add 203045.txt
+potoa se pravi commit so komandata: git commit -m "Add docs"
+23. najprvo treba da se napravi pull, komanda za pull: git pull
+potoa komanda za push: git push
+komanda za push na branch1: git push origin branch1
+komanda za oush na brach2P git push origin branch2
+
+
+
+
+
+
